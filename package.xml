@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<package format="2">
+    <name>warehouse_gazebo_sim</name>
+    <version>0.0.0</version>
+    <description>This package contains a set of warehouse related models and gazebo world files</description>
+    <maintainer email="allison@lyonthackston.com">Allison Thackston</maintainer>
+    <author email="allison@lyonthackston.com">Allison Thackston</author>
+
+    <license>GPL</license>
+
+    <export>
+        <gazebo_ros gazebo_model_path="${prefix}/models" />
+    </export>
+</package>
